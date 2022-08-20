@@ -16,6 +16,7 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
+    flex-wrap:  wrap;
 }
 
 
@@ -26,16 +27,16 @@ body{
 
 .one{
     background: red;
-    flex-shrink: 2;
+    
 }
 
 .two{
     background: blue;
-    flex-shrink: 3;
+    
 }
 
 .three{
     background: green;
-    flex-shrink: 1;
+    
 }
 
